@@ -1,0 +1,87 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Kazeem</title>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.scss" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto+Mono"
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <div id="navbarWrap">
+        <a href="#" id="name">Kazeem Ibiloye</a>
+        <nav id="navigation">
+          <div id="hamburger">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+              <path d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z" />
+            </svg>
+          </div>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a
+            href="//drive.google.com/file/d/1Fx_oYg7neIdSV1RFj4ZasNi2o6J1s7WV/view?usp=sharing"
+            target="_blank"
+            id="resume"
+            >Resume</a
+          >
+        </nav>
+      </div>
+    </div>
+
+    <div id="content">
+      <div id="landing">
+        <div class="typewriter">
+          <div>Hi,I'm Kazeem.</div>
+        </div>
+        <div class="delay 1s">
+          <img class="img lg" src="//i.imgur.com/o4hcPo4.png" />
+        </div>
+      </div>
+
+      <div id="about">
+        <div class="title">About</div>
+        I enjoy photography on my free time. Taking pictures is what i love to do!
+      </div>
+
+      <div id="experience">
+        <div class="title">Experience</div>
+        I worked as an IT specialist for 2 years doing desktop support.
+        I most recently completed 16 week bootcamp. Where i completed my linux certification. Now I'm a student at multiverse!
+      </div>
+
+      <div id="contact">
+        <div class="title">Contact Me</div>
+        <div class="body">
+          <p>
+            Feel free to send a message to my email through this form and I'll
+            get back to you shortly.
+          </p>
+          <form id="contactForm" action="contact.php" method="post">
+            <div>
+              <label for="name">Name:</label>
+              <textarea id="name" name="name" required></textarea>
+            </div>
+            <div>
+              <label for="email">Email:</label>
+              <textarea id="email" name="email" required></textarea>
+            </div>
+            <div>
+              <label for="message">Message:</label>
+              <textarea id="message" name="message" required></textarea>
+            </div>
+            <div>
+              <input type="submit" id="submit" value="Submit" />
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
